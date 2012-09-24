@@ -17,13 +17,13 @@ public class BackupBlobStore implements BlobStore {
 	@Override
 	public ImmutableBlobContainer immutableBlobContainer(final BlobPath path) {
 		this.logger.info("Getting BlobContainer for path {}", path);
+
 		return null;
 	}
 
 	@Override
 	public void delete(final BlobPath path) {
 		this.logger.info("Deleting BlobContainer at path {}", path);
-
 	}
 
 	@Override

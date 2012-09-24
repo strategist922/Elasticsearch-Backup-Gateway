@@ -34,5 +34,4 @@ public class BackupGateway extends BlobStoreGateway {
 		this.logger.info("Returning suggested Index Gateway");
 		return null;
 	}
-
 }
